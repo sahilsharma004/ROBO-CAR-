@@ -1,16 +1,16 @@
-#define BLYNK_TEMPLATE_ID "TMPL3pR4vz0hf"
-#define BLYNK_TEMPLATE_NAME "WIFI car"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 // Blynk authentication token
-char auth[] = "VQsGPBgKBrk8mCh4KfLkran4opkltjv3";
+char auth[] = "YOUR_AUTHENTICATION_CODE";
 
 // WiFi credentials
-char ssid[] = "समय महान है";
-char pass[] = "1sai8tak";
+char ssid[] = "YOUR_SSID";
+char pass[] = "YOUR_PASSWORD";
 
 // Define motor driver pins
 #define IN1 26  // Right Motor Forward
