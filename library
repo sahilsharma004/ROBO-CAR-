@@ -1,0 +1,24 @@
+✅ Required Libraries
+
+    Library	                                        Purpose                                     How to Install
+
+1 WiFi.h	                                Enables WiFi connection on ESP32             	Built-in with ESP32 board package
+2 BlynkSimpleEsp32.h	                    Connects ESP32 with Blynk IoT Platform	      Install via Blynk Library from Arduino Library Manager
+3 Blynk (v1.3.2 or later)	                Core Blynk functionality	                    Arduino Library Manager: Search Blynk and install
+
+
+📦 How to Install Libraries
+
+1 Open Arduino IDE
+
+2 Go to Sketch > Include Library > Manage Libraries
+
+3 Search for:
+
+  Blynk → Install
+
+4 Make sure ESP32 board support is installed:
+
+     Go to Tools > Board > Boards Manager
+
+     Search esp32 and install ESP32 by Espressif Systems
